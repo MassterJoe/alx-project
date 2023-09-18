@@ -1,5 +1,5 @@
 {
-  "name": "alx-project",
+  "name": "mcq-api",
   "version": "1.0.0",
   "description": "Alx project",
   "main": "index.js",
@@ -18,5 +18,13 @@
     "jsonwebtoken": "^9.0.2",
     "sqlite3": "^5.1.6"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MassterJoe/alx-project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MassterJoe/alx-project/issues"
+  },
+  "homepage": "https://github.com/MassterJoe/alx-project#readme"
 }

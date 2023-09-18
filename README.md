@@ -1,5 +1,8 @@
 # Multiple Choice Questions (MCQ) API Documentation
 
+Author: Salawu O. Joseph
+
+
 This API allows you to manage multiple-choice questions, including creating, retrieving, updating, and deleting questions. Users can also register and log in to access the API's protected endpoints.
 
 ## Table of Contents
@@ -158,7 +161,7 @@ Here are some sample requests to help you get started:
 
     Register a User:
 
-    http
+    
 
 POST /api/auth/register
 Content-Type: application/json
@@ -170,7 +173,6 @@ Content-Type: application/json
 
 Log In a User:
 
-http
 
 POST /api/auth/login
 Content-Type: application/json
@@ -182,7 +184,6 @@ Content-Type: application/json
 
 Create an MCQ:
 
-http
 
 POST /api/mcqs
 Content-Type: application/json
@@ -199,21 +200,20 @@ Authorization: Bearer <your-token>
 
 Get All MCQs:
 
-http
 
 GET /api/mcqs
 Authorization: Bearer <your-token>
 
 Get an MCQ by ID:
 
-http
+
 
 GET /api/mcqs/1
 Authorization: Bearer <your-token>
 
 Update an MCQ:
 
-http
+
 
 PUT /api/mcqs/1
 Content-Type: application/json
@@ -230,7 +230,7 @@ Authorization: Bearer <your-token>
 
 Delete an MCQ:
 
-http
+
 
 DELETE /api/mcqs/1
 Authorization: Bearer <your-token>
